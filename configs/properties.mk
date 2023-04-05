@@ -12,6 +12,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     pm.dexopt.first-boot=quicken
     pm.dexopt.bg-dexopt=everything
 
+# FS-verity
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.apk_verity.mode=2
+
 # Mobile Data
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.android.mobiledata=false
