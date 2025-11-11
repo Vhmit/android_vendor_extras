@@ -35,4 +35,11 @@ or to get logs from the device, include:
 $(call inherit-product, vendor/extras/configs/logs.mk)
 ```
 
+or to include properties and overlays:
+
+```
+# Inherit external properties/overlays
+$(call inherit-product, vendor/extras/product.mk)
+```
+
 and enjoy!
